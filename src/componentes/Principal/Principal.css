@@ -1,0 +1,5 @@
+
+main {
+    background-color: var(--cor-fundo-padrao);
+    grid-area: principal;
+  }
