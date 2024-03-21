@@ -1,16 +1,18 @@
-import "./App.css";
-import Cabecalho from "./componentes/Cabecalho/Cabecalho";
-import LadoEsquerdo from "./componentes/LadoEsquerdo/LadoEsquerdo";
-import Principal from "./componentes/Principal/Principal";
-import RodaPe from "./componentes/RodaPe/RodaPe";
+import './App.css';
+import Cabecalho from './componentes/Cabecalho/Cabecalho';
+import LadoEsquerdo from './componentes/LadoEsquerdo/LadoEsquerdo';
+import Principal from './componentes/Principal/Principal';
+import Rodape from './componentes/Rodape/Rodape';
 
 function App() {
+  console.log('App render...');
+
   return (
     <>
-      <Cabecalho></Cabecalho>
-      <LadoEsquerdo></LadoEsquerdo>
-      <Principal></Principal>
-      <RodaPe></RodaPe>
+      <Cabecalho />
+      <LadoEsquerdo />
+      <Principal />
+      <Rodape />
     </>
   );
 }

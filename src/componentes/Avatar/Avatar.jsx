@@ -1,8 +1,9 @@
-import "./Avatar.css"
+import './Avatar.css';
 
 const Avatar = (props) => {
-  return <div>
-    {props.nome}
-  </div>;
+  const [nome, sobrenome] = props.nome.split(' ');
+
+  return <div className='avatar'>{nome[0] + sobrenome[0]}</div>;
 };
+
 export default Avatar;

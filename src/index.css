@@ -1,8 +1,10 @@
-*{
+* {
   margin: 0;
 }
 
-html, body, #root{
+html,
+body,
+#root {
   height: 100%;
 }
 
@@ -25,5 +27,5 @@ html, body, #root{
   --cor-aviso: #dea500;
   --cor-erro: #eb0014;
 
-  --cor-cinza: #99A7BB;
+  --cor-cinza: #99a7bb;
 }
