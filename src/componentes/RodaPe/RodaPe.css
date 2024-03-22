@@ -1,5 +1,5 @@
 footer {
-  background-color: var(--cor-fundo-padrao);
+  background-color: var(--cor-primaria);
   grid-area: rodape;
 
   display: flex;
@@ -8,5 +8,5 @@ footer {
 }
 
 .texto-copyright {
-  color: #fff;
+  color: var(--cor-texto-claro);
 }

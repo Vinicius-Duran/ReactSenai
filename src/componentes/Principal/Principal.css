@@ -1,7 +1,8 @@
 main {
-  background-color: var(--cor-fundo-padrao);
+  background-color: var(--cor-fundo-escuro);
   grid-area: principal;
 
  display: grid;
  place-content: center; 
 }
+

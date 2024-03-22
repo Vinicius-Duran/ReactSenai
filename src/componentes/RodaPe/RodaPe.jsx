@@ -1,4 +1,4 @@
-import './Rodape.css';
+import './RodaPe.css';
 
 const Rodape = () => {
   const anoAtual = new Date().getFullYear();
@@ -6,7 +6,7 @@ const Rodape = () => {
   return (
     <footer>
       <span className='texto-copyright'>
-        Copyright © {anoAtual} - Todos os direitos reservados - João Silva.
+        Copyright © {anoAtual} - Todos os direitos reservados - Vinicius Duran.
       </span>
     </footer>
   );
