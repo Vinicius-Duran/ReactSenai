@@ -1,3 +1,18 @@
 .listaProduto{
     color: var(--cor-texto-claro);
 }
+
+.cores-disponiveis {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+  }
+  
+.detalhes-produto {
+    padding: 16px;
+    margin: 8px;
+    border: 1px solid var(--cor-primaria);
+    border-radius: 8px;
+    background-color: var(--cor-texto-escuro);
+}
+  

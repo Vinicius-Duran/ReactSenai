@@ -24,19 +24,24 @@ const Produto = () => {
       <h1>Lista de Produtos</h1>
       {produtos.map((item, index) => {
         return (
-          <div key={index} className="itens">
-            <span className="nome"> Nome: {item.nome}</span>
+          <div key={index} className='detalhes-produto'>
+            <strong>Nome:</strong>
+            <span>{item.nome}</span>
             <br />
-            <span className="preco"> Preco: {item.preco}</span>
+            <strong>Preço:</strong>
+            <span>{item.preco}</span>
             <br />
-            <span className="cores">
-              Cores:
+            <strong>Cores Disponíveis:</strong>
+            <div className='cores-disponiveis'>
               {item.cores.map((cor, index) => {
-                return <div key={index} style={{width: 24, height: 24, backgroundColor: cor }} />;
+                return (
+                  <div
+                    key={index}
+                    style={{ width: 24, height: 24, borderRadius: '50%', backgroundColor: cor }}
+                  />
+                );
               })}
-            </span>
-            <br />
-            <br />
+            </div>
           </div>
         );
       })}

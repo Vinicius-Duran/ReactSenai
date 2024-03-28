@@ -7,14 +7,10 @@
     margin: 2px;
 }
 
-.botao-customizado:hover{
- 
-    opacity: 0.1;
-}
 
 .botao-customizado:active{
  
-    opacity: 1.0;
+    opacity: 0.1;
 }
 
 
